@@ -1,0 +1,66 @@
+*{margin: 0; padding: 0; font-family: Verdana, Geneva, sans-serif;}
+
+body{
+	background: #400040; padding: 1%; box-sizing: border-box;
+}
+#header{
+	width: 100%; height: 50px; background: #800080;
+}
+#bodyleft{
+	width: 24%; height: 500px; background: #400040; margin: 20px 10px 10px 0px; border-radius: 3px; float: left;
+}
+#bodyleft h3{
+	border-radius: 3px; text-align: center; color: #fff; background: #800080; height: 40px; line-height: 40px; 
+}
+#bodyleft ul{
+	list-style: none; margin-top: 10px;
+}
+#bodyleft ul li{
+	 height: 30px; line-height: 30px; border-radius: 3px;
+}
+#bodyleft ul li a{
+	text-decoration: none; color: #fff; padding-left: 3%; display: block;
+}
+#bodyleft ul li:hover{
+	background: #800080; 
+}
+#bodyright{
+	padding-bottom: 2%; width: 74.9%; min-height: 500px; background: #800080; margin: 20px 0px 10px 0px; border-radius: 3px; float: left;
+}
+#bodyright h3{
+	border-bottom: 10px; border-bottom: 2px solid #400040; border-radius: 3px; text-align: center; color: #fff; background: #800080; height: 40px; line-height: 40px; 
+}
+#bodyright form table{
+	width: 95%; margin: auto; margin-top: 10px;
+}
+#bodyright form table tr th{
+	box-sizing: border-box; font-size: 20px height: 40px; color: #fff; font-weight: bold; text-align: left; padding: 0% 2% 0% 2%; 
+}
+#bodyright form table tr td a{
+	text-decoration: none; color: #fff;
+}
+#bodyright form table tr td{
+	width: 41%; height: 35px; color: #fff; padding-left: 2.5%;
+}
+#bodyright form table tr td input{
+	width: 100%; height: 30px; border-radius: 3px; border: 1px solid #fff; padding-left: 2%;
+}
+#bodyright form table tr td select{
+	width: 100%; height: 30px; border-radius: 3px; border: 1px solid #fff; padding-left: 2%;
+}
+#bodyright form button{
+	margin-top: 20px; width: 200px; height: 30px; color: #fff; background: #800080; border:2px solid #400040; border-radius: 3px;
+}
+#bodyright form button:hover{
+	background: #400040;
+}
+
+#add_cat{
+	margin-top: 10px; border-top: 2px solid #400040;
+}
+.scroll{
+	overflow-x: scroll;
+}
+.scroll form table tr th {padding: 0% !important; text-align: center !important; background: #400040 !important; font-size: 16px !important; }
+.scroll form table tr td {padding-left: 2% !important;  min-width: 100px; height: 35px; }
+.scroll form table tr td img {height: 30px; width: 30px;}
